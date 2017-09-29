@@ -10,6 +10,7 @@ class Shoe
 
   def brand=(brand)
     BRANDS << brand
+  end
 
   def cobble
     self.condition = "new"
